@@ -20,12 +20,14 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let firstScreen = FirstScreen()
-        
         let navigationController = UINavigationController(rootViewController: firstScreen)
+        
+        let collectionExample = CollectionViewControllerExample()
         
         window = UIWindow(frame: windowScene.coordinateSpace.bounds)
         window?.windowScene = windowScene
-        window?.rootViewController = navigationController
+//        window?.rootViewController = navigationController
+        window?.rootViewController = collectionExample
         window?.makeKeyAndVisible()
         
         print("-")

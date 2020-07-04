@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B808E74224B0057000E53B0A /* CollectionViewControllerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = B808E74124B0057000E53B0A /* CollectionViewControllerExample.swift */; };
 		B83B0CCF24ACC876001DC8D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B0CCE24ACC876001DC8D1 /* AppDelegate.swift */; };
 		B83B0CD124ACC876001DC8D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B0CD024ACC876001DC8D1 /* SceneDelegate.swift */; };
 		B83B0CD324ACC876001DC8D1 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B0CD224ACC876001DC8D1 /* FirstScreen.swift */; };
 		B83B0CD824ACC876001DC8D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B83B0CD724ACC876001DC8D1 /* Assets.xcassets */; };
 		B83B0CE324ACD425001DC8D1 /* SeconndScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83B0CE224ACD425001DC8D1 /* SeconndScreen.swift */; };
+		B8D1449C24B0246000C559DE /* UIUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D1449B24B0246000C559DE /* UIUtils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B808E74124B0057000E53B0A /* CollectionViewControllerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewControllerExample.swift; sourceTree = "<group>"; };
 		B83B0CCB24ACC876001DC8D1 /* UIKitCodeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitCodeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B83B0CCE24ACC876001DC8D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B83B0CD024ACC876001DC8D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		B83B0CE224ACD425001DC8D1 /* SeconndScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeconndScreen.swift; sourceTree = "<group>"; };
 		B83B0CE424AFC527001DC8D1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B83B0CE724AFC7FC001DC8D1 /* .gitignore.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = .gitignore.md; sourceTree = "<group>"; };
+		B8D1449B24B0246000C559DE /* UIUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIUtils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B808E73F24B004FD00E53B0A /* FirstSecond */ = {
+			isa = PBXGroup;
+			children = (
+				B83B0CD224ACC876001DC8D1 /* FirstScreen.swift */,
+				B83B0CE224ACD425001DC8D1 /* SeconndScreen.swift */,
+			);
+			path = FirstSecond;
+			sourceTree = "<group>";
+		};
+		B808E74024B0051E00E53B0A /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B808E74124B0057000E53B0A /* CollectionViewControllerExample.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
 		B83B0CC224ACC876001DC8D1 = {
 			isa = PBXGroup;
 			children = (
@@ -58,12 +79,13 @@
 		B83B0CCD24ACC876001DC8D1 /* UIKitCodeExample */ = {
 			isa = PBXGroup;
 			children = (
+				B808E74024B0051E00E53B0A /* CollectionView */,
+				B808E73F24B004FD00E53B0A /* FirstSecond */,
 				B83B0CCE24ACC876001DC8D1 /* AppDelegate.swift */,
 				B83B0CD024ACC876001DC8D1 /* SceneDelegate.swift */,
-				B83B0CD224ACC876001DC8D1 /* FirstScreen.swift */,
-				B83B0CE224ACD425001DC8D1 /* SeconndScreen.swift */,
 				B83B0CD724ACC876001DC8D1 /* Assets.xcassets */,
 				B83B0CDC24ACC876001DC8D1 /* Info.plist */,
+				B8D1449B24B0246000C559DE /* UIUtils.swift */,
 			);
 			path = UIKitCodeExample;
 			sourceTree = "<group>";
@@ -139,6 +161,8 @@
 			files = (
 				B83B0CE324ACD425001DC8D1 /* SeconndScreen.swift in Sources */,
 				B83B0CD324ACC876001DC8D1 /* FirstScreen.swift in Sources */,
+				B808E74224B0057000E53B0A /* CollectionViewControllerExample.swift in Sources */,
+				B8D1449C24B0246000C559DE /* UIUtils.swift in Sources */,
 				B83B0CCF24ACC876001DC8D1 /* AppDelegate.swift in Sources */,
 				B83B0CD124ACC876001DC8D1 /* SceneDelegate.swift in Sources */,
 			);
